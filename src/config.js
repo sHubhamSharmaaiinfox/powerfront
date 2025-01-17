@@ -1,2 +1,2 @@
-export const BASE_URL = 'http://127.0.0.1:8000/'
-export const WS_URL = 'ws://127.0.0.1:8000/ws/'
+export const BASE_URL = 'https://crmsgateway.com/'
+export const WS_URL = 'wss://crmsgateway.com/ws/'
