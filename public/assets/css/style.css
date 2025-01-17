@@ -14167,7 +14167,7 @@ img.coming-soon-logo {
     font-size: 11px !important;
 }
 .card-design .card h6 {
-  font-size: 15px !important;
+  font-size: 13px !important;
 }
 }
 .card-5 .bg-success-main {
@@ -14219,7 +14219,7 @@ button.dt-paging-button {
   background: #fff !important;
 }
 ::-webkit-scrollbar {
-  width: 5px; /* Set the width of the vertical scrollbar */
+  width: 3px; /* Set the width of the vertical scrollbar */
 }
 
 /* Style the scrollbar thumb (the draggable part) */
@@ -14276,4 +14276,17 @@ button.dt-paging-button {
   .sidebar-menu span {
     font-size: 11px;
 }
+}
+.card-design h6 {
+  font-size: 14px !important;
+}
+@media(min-width:1000px) and (max-width:1400px){
+  .set-card{
+    display: flex;
+    justify-content:space-between;
+    gap: 8px;
+  }
+  .set-card .card{
+    width: 33.33%;
+  }
 }
